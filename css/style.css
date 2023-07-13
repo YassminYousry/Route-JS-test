@@ -1,0 +1,73 @@
+body{
+  background-color: #f5f5f5;
+}
+.about .about-box-shadow{
+  padding-block: 4rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-block-end: 3rem;
+}
+.progress{
+  --bs-progress-height: 0.7rem;
+  margin-block-end: 1.2rem;
+  background-color: #cde1f8;
+}
+.progress .progress-bar{
+  background-color: #0078ff;
+}
+.about-title{
+  position: relative;
+  font-size: 2rem;
+}
+.about-title::before{
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 20%;
+  background-color: #0078ff;
+  bottom: -12px;
+}
+/* Begin Services */
+
+.section-title h2{
+  font-size: 3rem;
+}
+.section-title p::after{
+  content:"";
+  position: absolute;
+  height: .2875rem;
+  width: 3rem;
+  background-color: #0078ff;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services-icon {
+  width: 90px;
+  height: 90px;
+  border: 10px solid #0078ff;
+  transition: 0.3s all;
+}
+.card-title{
+  font-size: 22px;
+}
+.services .services-cards .card:hover .services-icon{
+  border-color: #cde1f8;
+  background-color: #0078ff;
+  color:#fff;
+}
+/* counter*/
+.counter{
+  background-image: url(../images/counters-bg.jpg);
+  /* height: 500px; */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.counter-icon{
+  width: 50px;
+  height: 50px;
+}
+.layer{
+  background-color: #0077ff7d;
+}
